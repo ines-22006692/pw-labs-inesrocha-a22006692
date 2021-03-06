@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Introdução</title>
+        <meta name="author" content="Inês Rocha - a22006692">
+        <meta name="keywords" content="HTML,Web,Japão">
+        <meta name="description" content="Descricao de uma cidade">
+        <link rel="shortcut icon" type="image/x-icon" href="images/preview.ico">
+        <body style="background-color:#b8ece3;"></body>
+        <style>
+            h1 {color:rgb(243, 143, 136)}
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>&#127568; Tóquio &#127568;</h1>
+            <img src="images/toquio.jpg">
+            <br>
+            <a href="../index.html">Home |</a>
+            <a href="index.html">Introdução |</a>
+            <a href="local.html">Localização |</a>
+            <a href="multimedia.html">Multimédia |</a>
+            <a href="info.html">Informação |</a>
+            <a href="quizz.html">Quizz |</a>
+            <a href="comentarios.html">Comentários</a>
+            <hr>
+            <u><h3> Comentários </h3></u>
+    </center>
+    <fieldset>
+        <form>
+        <legend><b>Ajude-nos a perceber o que melhorar!!</b></legend>
+            <p>O site encontra-se explicíto relativamente ao assunto que é tratado? 
+                <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+            <label for="clareza">Como classifica o nosso website quanto à Clareza?</label>
+                <input type="radio" id="Pessimo" name="gender" value="Pessimo">
+            <label for="Pessimo">Péssimo</label>
+                <input type="radio" id="Medio" name="gender" value="Medio">
+            <label for="Medio">Médio</label>
+                <input type="radio" id="Bom" name="gender" value="Bom">
+            <label for="Bom">Bom</label>
+                <input type="radio" id="Muito Bom" name="gender" value="Muito Bom">
+            <label for="Muito Bom">Muito Bom</label><br><br>
+
+            <label for="quantity"> Avaliação na originalidade (sendo 1 o pior e 5 o melhor): </label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" ></p>
+
+            <label for="quantity"> Avaliação no design (sendo 1 o pior e 5 o melhor): </label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" ></p>
+
+            <p>Como classifica o nosso website quanto ao rigor?
+                <input type="range" id="rig" name="rig" min="1" max="5">
+                <output name="outR">3</output>
+            </p>
+            
+                <label for="quantity"> Qual a percentagem de facilidade de navegação nas várias páginas do web site?  </label>
+                <input type="range" min="0" max="100" name="taxa" value="0" oninput="taxaN.value = parseInt(taxa.value)">
+                <output name= "taxaN" for="taxa">0</output> %
+           
+            
+            <br>
+            <br>
+            <p>Sugestões de Melhoria:</p>
+              <textarea name="message" rows="3" cols="50"></textarea><br><br>
+              <input type="hidden" id="lab3" name="lab3" value="100">
+              <input type="submit" value="Enviar" style="height:25px; width:130px;" onclick="alert('Obrigado pela sua opinião')">
+            </form>   
+    </fieldset>
+    </body>
+</html>
