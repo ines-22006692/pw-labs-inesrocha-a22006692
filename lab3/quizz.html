@@ -25,36 +25,68 @@
             <a href="quizz.html">Quizz |</a>
             <a href="comentarios.html">Comentários</a>
             <hr>
-            <u><h3>Introdução</h3></u>
-        <p>O Japão é um arquipélago com  6.852 ilhas, sendo as maiores: Honshu, Hokkaido, Kyushu e Shikoku. A sua capital é a &#127747; de <b>Tóquio</b>, considerada uma das maiores metrópoles do mundo, que encanta pela preservação das suas características culturais; com os seus templos e &#127983;, enquanto mantém um olhar para o futuro.   
-            O grande expoente da cultura japonesa é o &#127886; herança que data do século IV e, ainda hoje é utilizado em ocasiões especiais.
-        <p>
+            <u><h3>Quizz</h3></u>
+        </center>
+            
+        <form action="mailto:j.lima2001@hotmail.com" method="post">
+            <fieldset>
+            <legend><b>Identificação:</b></legend>
+            <p>Nome: <br> <input type="text" id="nome" name="nome" size="20" maxlength="20" placeholder="insira nome" autofocus required></p>
+            <p>Apelido: <br> <input type="text" id="apelido" name="apelido" size="20" maxlength="20" placeholder="insira apelido" required></p>
+            <p>Email: <br> <input type="email" id="email" name="email" autocomplete="on" placeholder="insira email" required></p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend><b>Perguntas sobre Tóquio e a sua visita:</b></legend>
 
-        <hr>
-        <p><b>Tóquio</b>: É a cidade mais fantástica e exótica do oriente.</p>
-        <p>É o <u>centro financeiro</u> do Japão e possui o maior <u>produto interno bruto do mundo</u> do mundo.</p>
-        <p>Consegue conciliar arranha-céus gigantescos com jardins deslumbrantes.</p>
-        <p>Uma viagem a esta cidade permite-nos conhecer tradições ancestrais como: o <u>Taiko</u>,o <u>O-bom</u>, o <u>O-shogatsu</u>, o <u>Kimono</u> e as tradições mais atuais como os <u>Animes</u> e os <u>Mangas</u>. </p>
-        <p>Para uma experiência diferente e inesquecível visite <b>a cidade das cerejeiras em flor</b>.</p>
+                <label for="date"><b>1.</b>Quando visitou Tóquio</label>
+                <input type="date" name="dateInserida" min="2020-05-02"> <br></br>
 
-        <hr>
-        <p>Tóquio: É a cidade mais fantástica e exótica do oriente.É o centro financeiro do Japão e possui o maior produto interno bruto do mundo do mundo.
-            Consegue conciliar arranha-céus gigantescos com jardins deslumbrantes.
-            Uma viagem a esta cidade permite-nos conhecer tradições ancestrais como: o Taiko,o O-bom, o O-shogatsu, o Kimono e as tradições mais atuais como os Animes e os Mangas.
-        </p>
-    <p>Estrutura do Website:</p>
-    <ul>
-    <li>Ver outros laboratórios: <a href="../index.html"> Home</a></li>
-    <li>Localização de Tóquio: <a href="local.html"> Localização</a></li>
-    <li>Descoberta de Tóquio com um video <a href="multimedia.html"> Multimédia</a></li>
-    <li>Ir para a pagina principal: <a href="index.html"> Pagina Principal</a>
-    <li>Descobrir mais informação sobre Tóquio: <a href="info.html"> Informação</a></li>
-    </li>
-    </ul>
-    <hr>
-    <img src="images/wordcloud.jpg">
+                <label for="checkbox"><b>2.</b>Em que continente é localizado tóquio?</label><br>
+                    <input type="checkbox" id="cont1" name="cont1" value="America">
+                    <label for="cont1">America</label><br>
+                    <input type="checkbox" id="cont2" name="cont2" value="Europa">
+                    <label for="cont2">Europa</label><br>
+                    <input type="checkbox" id="cont3" name="cont3" value="Asia">
+                    <label for="cont3">Asia</label><br><br>
 
-    </center>
-       
+                <label for="favcolor"><b>3.</b>Qual a cor predominante da bandeira de Tóquio?</label>
+                <input type="color" id="favcolor" name="favecolor" value="#ff0000"><br><br>
+                
+                <label for="text"><b>4.</b>Como se chama o monumento em baixo?</label><br><br>
+                <label for="fname">Nome:</label>
+                <input type="text" id="fname" name="fname" maxlength="100" autofocus><br><br>
+                <input type="image" src="images/senso-ji.jpg" height="155"><br><br>
+                
+                <label for="areas"><b>5.</b>Qual é o número de habitantes estimados em Tóquio?</label><br><br>
+                <select id="areas" name="areas">
+                    <option value="9,273">9,273 milhões hab</option>
+                    <option value="6,821">6,821 milhões hab</option>
+                    <option value="14,573">14,573 milhões hab</option>
+                    <option value="5,764">5,764 milhões hab</option>
+               </select><br><br>
+
+
+               <label for="areas"><b>5.</b>Qual é aproximadamente a área da cidade de Tóquio?</label><br><br>
+               <label for="areas">Escolha uma área:</label>
+               <select id="areas" name="areas">
+                    <option value="3120"> 3120 m<sup>2</sup></option>
+                    <option value="5012"> 5012 m<sup>2</sup></option>
+                    <option value="2189"> 2189 m<sup>2</sup></option>
+                    <option value="10866"> 10866 m<sup>2</sup></option>
+               </select>
+
+        
+
+                <br>
+                <br>
+                <input type="submit" value="Submeta o Quizz">
+                <input type="reset" value="reset">
+            </fieldset>
+        
+        </form>
     </body>
 </html>
