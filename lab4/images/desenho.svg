@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="236.745" y1="62.493" x2="236.745" y2="440.249" id="gradient-0" gradientTransform="matrix(1, 0, 0, 1, 0.914077, 0)">
+      <stop offset="0" style="stop-color: rgba(241, 0, 0, 1)"/>
+      <stop offset="1" style="stop-color: rgba(139, 0, 0, 1)"/>
+    </linearGradient>
+  </defs>
+  <circle style="fill: url(#gradient-0);" cx="237.659" cy="251.371" r="188.878"/>
+  <path d="M 287.02 117.775 L 449.422 399.064 L 124.618 399.064 L 287.02 117.775 Z" style="fill: rgb(126, 103, 56);" transform="matrix(-0.502806, 0.864399, -0.864399, -0.502806, 650.448364, 283.835449)" bx:shape="triangle 124.618 117.775 324.804 281.289 0.5 0 1@b48e695f"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 243.144 193.074 L 175.503 304.591 C 203.839 374.975 282.144 375.28 310.785 306.419 C 311.901 303.735 286.205 266.226 243.144 193.074 Z"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+</svg>
