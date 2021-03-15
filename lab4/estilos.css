@@ -25,6 +25,10 @@ h3{
     color:rgb(101, 58, 150);
     text-align: center;
 }
+h4{
+  color:rgb(228, 152, 39);
+  text-align: center;
+}
 
 div h3{
     background-color: rgba(224, 136, 148, 0.925);
@@ -37,8 +41,7 @@ p,h4,a{color:rgba(34, 32, 32, 0.664)}
 
 h1{
     color: rgb(219, 32, 32);
-    text-align: center;
-    font-size: 60px;
+    
 
     
 }
@@ -65,6 +68,13 @@ figure.sticky {
   padding: 5px;
 }
 
+figure.outro {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
+
 iframe {
   color: #000;
   border: 5px solid rgb(252, 49, 49);
@@ -74,16 +84,15 @@ iframe {
   border: 5px solid rgb(173, 22, 22);
 }
 
-header ~ main {
-  margin: auto;
-  background-color: #b8ece3;
+main + footer {
+  font-size: 34px;
+  background-color: #cfdddd;
   margin: auto;
   width: 800px;
 }
-
-main + footer {
-  font-size: 50px;
-  background-color: #b8ece3;
+header ~ main {
+  margin: auto;
+  background-color: #cfdddd;
   margin: auto;
   width: 800px;
 }
