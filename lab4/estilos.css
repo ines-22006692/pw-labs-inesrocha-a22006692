@@ -1,9 +1,6 @@
-@import "estilos.css";
 
 *{
     font-family: sans-serif;
-    text-align: center;
-    font-size: 15px;
 }
 
 body{ 
@@ -41,7 +38,7 @@ p,h4,a{color:rgba(34, 32, 32, 0.664)}
 
 h1{
     color: rgb(219, 32, 32);
-    
+    font-size: 20px;
 
     
 }
@@ -54,7 +51,7 @@ img.relativo {
 
 img.absoluto {
   position: absolute;
-  top: 2090px;
+  top: 2400px;
   right: 430px;
   width: 200px;
   height: 100px;
@@ -80,19 +77,31 @@ iframe {
   border: 5px solid rgb(252, 49, 49);
 }
 
-[src="images/toquio.jpg"] {
+[src="images/japao.jpg"] {
   border: 5px solid rgb(173, 22, 22);
 }
 
 main + footer {
   font-size: 34px;
-  background-color: #cfdddd;
+  background-color: #b8ece3;
   margin: auto;
   width: 800px;
 }
 header ~ main {
   margin: auto;
-  background-color: #cfdddd;
+  background-color: #b8ece3;
   margin: auto;
   width: 800px;
+}
+body nav {
+  margin: auto;
+  background-color: #b8ece3;
+  margin: auto;
+  width: 850px;
+}
+body header {
+  background-color: #b8ece3;
+  margin: auto;
+  width: 800px;
+  text-align: center;
 }
