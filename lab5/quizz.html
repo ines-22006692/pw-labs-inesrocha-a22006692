@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width,initial-scale=1.0">
+        <title>Quizz</title>
+        <link rel="stylesheet" href="estilos.css">
+        <meta name="author" content="Inês Rocha - a22006692">
+        <meta name="keywords" content="HTML,Web,Japão">
+        <meta name="description" content="Descricao de uma cidade">
+        <link rel="shortcut icon" type="image/x-icon" href="images/preview.ico">
+        <body style="background-color:#b8ece3;"></body>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            a:link{color:blue}
+            a:visited{color:rgb(209, 21, 21)}
+            a:hover{color:rgb(183, 49, 224)}
+            a:active{color:darkblue}
+        </style>
+       
+    </head>
+    <body>
+
+        
+
+        <header>
+            <h1><center>&#127568; Tóquio &#127568</center></h1>
+            <figure>
+                <center>
+                    <img src="images/japao.jpg">
+                    <details>
+                        <summary>Detalhes </summary>
+                        <p style="color: rgb(182, 25, 25);"><i><b>Imagem da Torre de Tóquio</b></i></p>
+                    </details>
+                </center>
+            </figure>
+        </header>
+       
+        <br>
+        <!--Menu de Navegação-->
+        <nav>
+            <center>
+                <a href="quizz.html"><i class="material-icons">poll</i>Quizz |</a>
+                <a href="comentarios.html"><i class="material-icons">feedback</i> Comentários |</a>
+                <a href="html5-css.html"><i class="material-icons">computer</i>HTML |</a>
+                <a href="../index.html"><i class="material-icons">home</i>Home |</a>
+                <a href="index.html"><i class="material-icons">menu_book</i>Introdução |</a>
+                <a href="local.html"><i class="material-icons">room</i>Localização |</a>
+                <a href="multimedia.html"><i class="material-icons">video_camera_front</i>Multimédia |</a>
+                <a href="info.html"><i class="material-icons">description</i>Informação </a>
+            </center>
+        </nav>
+
+        <hr>
+        <main>
+            <div><h3>Quizz</h3></div>
+
+            <form action="mailto:j.lima2001@hotmail.com" method="post">
+                <fieldset>
+                <legend><b>Identificação:</b></legend>
+                <p>Nome: <br> <input type="text" id="nome" name="nome" size="20" maxlength="20" placeholder="insira nome" autofocus required></p>
+                <p>Apelido: <br> <input type="text" id="apelido" name="apelido" size="20" maxlength="20" placeholder="insira apelido" required></p>
+                <p>Email: <br> <input type="email" id="email" name="email" autocomplete="on" placeholder="insira email" required></p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                </fieldset>
+                <br>
+                <br>
+
+                <fieldset>
+                    <legend><b>Perguntas sobre Tóquio e a sua visita:</b></legend>
+    
+                    <label for="date"><b>1.</b>Quando visitou Tóquio</label>
+                    <input type="date" name="dateInserida" min="2020-05-02"> <br></br>
+    
+                    <label for="checkbox"><b>2.</b>Em que continente é localizado tóquio?</label><br>
+                        <input type="checkbox" id="cont1" name="cont1" value="America">
+                        <label for="cont1">America</label><br>
+                        <input type="checkbox" id="cont2" name="cont2" value="Europa">
+                        <label for="cont2">Europa</label><br>
+                        <input type="checkbox" id="cont3" name="cont3" value="Asia">
+                        <label for="cont3">Asia</label><br><br>
+    
+                    <label for="favcolor"><b>3.</b>Qual a cor predominante da bandeira de Tóquio?</label>
+                    <input type="color" id="favcolor" name="favecolor" value="#ff0000"><br><br>
+                    
+                    <label for="text"><b>4.</b>Como se chama o monumento em baixo?</label><br><br>
+                    <label for="fname">Nome:</label>
+                    <input type="text" id="fname" name="fname" maxlength="100" autofocus><br><br>
+                    <input type="image" src="images/senso-ji.jpg" height="155"><br><br>
+                    
+                    <label for="areas"><b>5.</b>Qual é o número de habitantes estimados em Tóquio?</label><br><br>
+                    <select id="areas" name="areas">
+                        <option value="9,273">9,273 milhões hab</option>
+                        <option value="6,821">6,821 milhões hab</option>
+                        <option value="14,573">14,573 milhões hab</option>
+                        <option value="5,764">5,764 milhões hab</option>
+                   </select><br><br>
+                   <label for="areas"><b>6.</b>Qual é aproximadamente a área da cidade de Tóquio?</label><br><br>
+                   <label for="areas">Escolha uma área:</label>
+                   <select id="areas" name="areas">
+                        <option value="3120"> 3120 m<sup>2</sup></option>
+                        <option value="5012"> 5012 m<sup>2</sup></option>
+                        <option value="2189"> 2189 m<sup>2</sup></option>
+                        <option value="10866"> 10866 m<sup>2</sup></option>
+                   </select>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submeta o Quizz">
+                    <input type="reset" value="reset">
+                </fieldset>
+            
+            </form>
+
+            <br><hr>
+
+            <section>
+                <center>
+                    <svg width="600" height="289">
+                        <g transform="translate(100,100)"> 
+                            <a href="index.html">
+                                <text id="TextElement" x="20" y="0" style="font-family:Impact;font-size:50; visibility:hidden"> Introdução
+                                    <set attributeName="visibility" attributeType="CSS" to="visible"  fill="freeze" />
+                                    <animateMotion path="M 4 0 L 100 89" begin="1s" dur="5s" fill="freeze" />
+                                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0"  fill="freeze" /> 
+                                    <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum"  fill="freeze" /> 
+                                  </text> 
+                            </a>
+                          
+                            <a href="local.html">
+                           <text id="TextElement" x="0" y="0" style="font-family:Impact;font-size:14; visibility:hidden"> Localização
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                          </text> 
+                          </a>
+                          
+                          <a href="multimedia.html">
+                            <text font-style="normal" font-weight="normal" transform="rotate(-60 259.890625,78.5) " xml:space="preserve" text-anchor="start" font-family="'UnifrakturMaguntia'" font-size="24" id="svg_6" y="85" x="233" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Multimédia
+                            </text>
+                         
+                        </a>
+                            
+                        <a href="info.html">
+                             <text id="TextElement3" x="80" y="20" style="font-family:Verdana;font-size:14; visibility:hidden"> Informação
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                            <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="3s" dur="5s" fill="freeze" /> 
+                            </text> 
+                        </a>
+                            
+                        <a href="comentarios.html">
+                               <text id="TextElement3" x="110" y="-5" style="font-family:Courier New-B;font-size:14; visibility:hidden"> Comentários
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                            <animateMotion path="M 10 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="2s" fill="freeze" /> 
+                            <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum"  fill="freeze" /> 
+                
+                        </text> 
+                        </a>
+                
+                        <a href="quizz.html">
+                            <text id="TextElement" x="30" y="80" style="font-family:Impact;font-size:24; visibility:hidden"> Quizz
+                                <set attributeName="visibility" attributeType="CSS" to="visible"  fill="freeze" />
+                                <animateMotion path="M 10 0 L 5 89" begin="1s" dur="5s" fill="freeze" />
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0"  fill="freeze" /> 
+                        </a>
+                        </g> 
+                      </svg>
+                </center>
+            </section>
+
+            <footer>
+                <n>Nome: Inês Rocha| <a href="https://www.ulusofona.pt/">Universidade Lusofona|</a> a22006692| 2º ano</n>
+            </footer>
+        
+        </main>
+         
+    </body>
+</html>
