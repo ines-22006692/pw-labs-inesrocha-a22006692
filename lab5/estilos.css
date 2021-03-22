@@ -2,13 +2,6 @@
  h1 {
   font-size: 28px;
 }
-h4{
-  background-color: aliceblue;
-}
-
-
-
-
 
 *{
 box-sizing:border-box;
@@ -266,19 +259,6 @@ img.absoluto {
   border: 3px solid #0906aa;
 }
 
-figure.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-}
-
-figure.outro {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-}
 a:link{color:blue}
 a:visited{color:rgb(209, 21, 21)}
 a:hover{color:rgb(183, 49, 224)}
