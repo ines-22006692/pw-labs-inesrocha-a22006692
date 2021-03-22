@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width,initial-scale=1.0">
-        <title>HTML5 e CSS</title>
-        <link rel="stylesheet" href="estilos.css">
-        <meta name="author" content="Inês Rocha - a22006692">
-        <meta name="keywords" content="HTML,Web,Japão">
-        <meta name="description" content="Descricao de uma cidade">
-        <link rel="shortcut icon" type="image/x-icon" href="images/preview.ico">
-        <body style="background-color:#b8ece3;"></body>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
-        <style>
-            *{
+<head>
+  
+  <!--definir exibicao da janela-->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   
+  <link rel="stylesheet" href="estilos.css">
+
+  <meta charset="UTF-8">
+  <title>HTML e CSS</HTML></title>
+  <meta name="author" content= "Inês Rocha - a22006692">
+  <meta name="keywords" content="HTML,Web,Japão">
+  <meta name="desciption" content="Descricao de uma cidade">
+  <link rel="shortcut icon" type="image/x-icon" href="images/preview.ico">
+  <body style="background-color:rgb(196, 201, 201)"><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=WrFD2m66LNKpb8Pu01Z9861CtbXzCMt77OwnSTu8LBLJ7VnRRGzXFzikxQUtZq45e5Me0gLrgMGefgFtJacJYOHVOspRbM98grxA4TtnHxFcrMfxalz1mwv16UaBf7tA" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9wdy1sYWJzLWpvYW9zYW50b3MtMjE5MDUxMzEuaGVyb2t1YXBwLmNvbS9sYWI1L2luZGV4Lmh0bWw"/></body>
+  <link href="https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style> 
+      div {
+        width: 100%;
+        height: 100%;
+      
+
+       
+        position: relative;
+        animation: mymove 5s ;
+        animation-fill-mode: forwards;
+      }
+      
+      #div1 {animation-timing-function: linear;
+        }
+      
+      @keyframes mymove {
+        from {left: -1000px;}
+        to {left: 0px;}
+      }
+
+      *{
                 font-family: sans-serif;
                 text-align: center;
-                font-size: 13px;
+                
             }
             
             table, td, th{
@@ -42,212 +64,219 @@
                 color:royalblue;
                 font-size:xx-large;
             }
-            
-            
-            
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1><center>&#127568; Tóquio &#127568</center></h1>
-            <figure>
-                <center>
-                    <img src="images/japao.jpg">
-                    <details>
-                        <summary>Detalhes </summary>
-                        <p style="color: rgb(182, 25, 25);"><i><b>Imagem da Torre de Tóquio</b></i></p>
-                    </details>
-                </center>
-            </figure>
-        </header>
+      </style>
+</head>
+<body>
+<center>
+  <div class="header">
+    <header>
+        <h1>&#127568; Tóquio &#127568;</h1>
+    </div>
+    
+      <img src="images/japao.jpg" alt="Tóquio">
        
+        <details>
+          <summary>Detalhes</summary>
+          <p style="color: rgb(182, 25, 25);"><i><b>Imagem do Monte Fuji</b></i></p>
+        </details>
+  </div>
+ 
+  <div class="row">
+    <div class="col-3 menu">
+      
+<ul>
+  <p>
+    <a href="quizz.html"><i class="material-icons" style="font-size:24px;color:rgb(228, 82, 24)">poll</i>Quizz </a>
+    <a href="comentarios.html"><i class="material-icons" style="font-size:24px;color:rgb(42, 174, 207)">feedback</i> Comentários </a>
+    <a href="html5-css.html"><i class="material-icons" style="font-size:24px;color:red">computer</i>HTML </a>
+    <a href="../index.html"><i class="material-icons" style="font-size:24px;color:rgb(176, 59, 192)">home</i> Home </a>
+    <a href="index.html"><i class="material-icons" style="font-size:24px;color:rgb(212, 198, 2)">menu_book</i>Introdução </a>
+    <a href="local.html"><i class="material-icons" style="font-size:24px;color:rgb(53, 124, 51)">room</i>Localização </a>  
+    <a href="multimedia.html"><i class="material-icons" style="font-size:24px;color:rgb(3, 14, 170)">video_camera_front</i>Multimédia </a>
+    <a href="info.html"><i class="material-icons" style="font-size:24px;color:rgb(90, 44, 44)">description</i>Informação </a>
+      
+    </ul>
+    </div>
+  
+    <div class="col-6">
+      <main>
+        <section>
+            <h3><i>HTML5</i></h3>
+            <p>HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software.</p>
+            <br>
+         <!--Tabela-->
+         <table>
+            <tr class="cor" class="texto" id="unico">
+                <th>Elementos semânticos do HTML5</th>
+                <th>Usou este elemento nesta página?</th>
+                <th>Funcionamento do elemento:</th>
+            </tr>
+            <tr>
+                <td>Header</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Cabeçalho em todas as páginas </td>
+            </tr>
+            <tr>
+                <td>Nav</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Menu de navegação em todas as páginas</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Indica conteúdo principal e único, que não se repete</td>
+            </tr>
+            <tr>
+                <td>Header</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Cabeçalho em todas as páginas </td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Utilizado em todas as páginas</td>
+            </tr>
+            <tr>
+                <td>Aside</td>
+                <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
+                <td>Indica anotações, publicidade ou outros assuntos desconexos</td>
+            </tr>
+            <tr>
+                <td>Footer</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Indica rodapé da secção</td>
+            </tr>
+            <tr>
+                <td>Details</td>
+                <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
+                <td>Define detalhes adicionais que o utilizador pode ver ou esconder, contidos num elemento summary</td>
+            </tr>
+            <tr>
+                <td>Meter</td>
+                <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
+                <td>Define uma medida escalar estática dentro de um intervalo</td>
+            </tr>
+            <tr>
+                <td>SVG</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Páginas do Lab 4 e posterior</td>
+            <tr>
+                <td>Abbr</td>
+                <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
+                <td>Indica o significado de uma abreviatura em conjunto com o atributo title</td>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Utilizei para fazer tabelas </td>
+            </tr>
+            <tr>
+                <td>iframe</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Utilizado em todas os laboratórios </td>
+            </tr>
+        </table>
+
+    </section>
         <br>
-        <!--Menu de Navegação-->
-        <nav>
-            <center>
-                <a href="quizz.html"><i class="material-icons">poll</i>Quizz |</a>
-                <a href="comentarios.html"><i class="material-icons">feedback</i> Comentários |</a>
-                <a href="html5-css.html"><i class="material-icons">computer</i>HTML |</a>
-                <a href="../index.html"><i class="material-icons">home</i>Home |</a>
-                <a href="index.html"><i class="material-icons">menu_book</i>Introdução |</a>
-                <a href="local.html"><i class="material-icons">room</i>Localização |</a>
-                <a href="multimedia.html"><i class="material-icons">video_camera_front</i>Multimédia |</a>
-                <a href="info.html"><i class="material-icons">description</i>Informação </a>
-            </center>
-        </nav>
-            <hr>
-            <main>
+        <hr>
+        <section>
+            <br>
+        <h3><i>CSS</i></h3>
+        <p>Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.)a um documento web</p>
+            <br>
+         <!--Tabela 1-->
+         <table>
+            <tr class="cor" class="texto" id="unico">
+                <th>Tipo de Seletor</th>
+                <th>Usou o seletor nesta página?</th>
+                <th>Funcionamento do seletor:</th>
+            </tr>
+            <tr>
+                <td>Universal</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Aplica o estilo a todos os elementos da página</td>
+            </tr>
+            <tr>
+                <td>Tipo</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Usa o nome do marcador a estilizar</td>
+            </tr>
+            <tr>
+                <td>Classe</td>
+                <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
+                <td>Associa um nome a um estilo</td>
+            </tr>
+            <tr>
+                <td>Id</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Permite identificar univocamente um elemento do HTML</td>
+            </tr>
+            <tr>
+                <td>Atributo</td>
+                <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
+                <td>Aplicam-se a atributos de elementos</td>
+            </tr>
+            <tr>
+                <td>Pseudo-Classe</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>São associados ao estado de um elemento</td>
+            </tr>
+            <tr>
+                <td>Pseudo-Elemento</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Aplicam-se a partes de elementos</td>
+            </tr>
+        </table>
+    </section>
+        <br>
+        <!--Falta acabar-->
+        <hr>
+        <section>
+            <br>
+            <h3>Seletores</h3>
+            <br>
+        <!--Tabela 2-->
+        <table>
+            <tr class="cor" class="texto" id="unico">
+                <th>Combinadores de Seletores</th>
+                <th>Usou o combinador nesta página?</th>
+                <th>Funcionamento do combinador:</th>
+            </tr>
+            <tr>
+                <td>Seletores descendentes</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Todos os <i>p</i> são "dentro" de um <i>div</i></td>
+            </tr>
+            <tr>
+                <td>Seletores filhos</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Todos os <i>p</i> que estão "logo dentro" de <i>div</i></td>
+            </tr>
+            <tr>
+                <td>Seletores adjacentes</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Todos os <i>p</i> que estão colocados depois de um <i>div</i></td>
+            </tr>
+            <tr>
+                <td>Seletores imediatamente adjacentes</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>Todos os <i>p</i> que estão colocados "imediatamente" depois de um <i>div</i></td>
+            </tr>
+            <tr>
+                <td>Agrupa seletores</td>
+                <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
+                <td>São separados por vírgulas</td>
+            </tr>
+        </table>
+    </section>
+    <p>
         
-                <section>
-                    <div><h3>HTML5</h3></div>
-                    <p>HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software.</p>
-                
-                    <!--Tabela-->
-                    <table>
-                        <tr class="cor" class="texto" id="unico">
-                            <th>Elementos semânticos do HTML5</th>
-                            <th>Usou este elemento nesta página?</th>
-                            <th>Funcionamento do elemento:</th>
-                        </tr>
-                        <tr>
-                            <td>Header</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Cabeçalho em todas as páginas </td>
-                        </tr>
-                        <tr>
-                            <td>Nav</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Menu de navegação em todas as páginas</td>
-                        </tr>
-                        <tr>
-                            <td>Main</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Indica conteúdo principal e único, que não se repete</td>
-                        </tr>
-                        <tr>
-                            <td>Header</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Cabeçalho em todas as páginas </td>
-                        </tr>
-                        <tr>
-                            <td>p</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Utilizado em todas as páginas</td>
-                        </tr>
-                        <tr>
-                            <td>Aside</td>
-                            <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
-                            <td>Indica anotações, publicidade ou outros assuntos desconexos</td>
-                        </tr>
-                        <tr>
-                            <td>Footer</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Indica rodapé da secção</td>
-                        </tr>
-                        <tr>
-                            <td>Details</td>
-                            <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
-                            <td>Define detalhes adicionais que o utilizador pode ver ou esconder, contidos num elemento summary</td>
-                        </tr>
-                        <tr>
-                            <td>Meter</td>
-                            <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
-                            <td>Define uma medida escalar estática dentro de um intervalo</td>
-                        </tr>
-                        <tr>
-                            <td>SVG</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Páginas do Lab 4 e posterior</td>
-                        <tr>
-                            <td>Abbr</td>
-                            <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
-                            <td>Indica o significado de uma abreviatura em conjunto com o atributo title</td>
-                        </tr>
-                        <tr>
-                            <td>Table</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Utilizei para fazer tabelas </td>
-                        </tr>
-                        <tr>
-                            <td>iframe</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Utilizado em todas os laboratórios </td>
-                        </tr>
-                    </table>
-        
-                </section>
-                <section>
-                    <div><h3><i>CSS</i></h3></div>
-                    <p>Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.)
-                a um documento web</p>
-        
-                    <!--Tabela 1-->
-                    <table>
-                        <tr class="cor" class="texto" id="unico">
-                            <th>Tipo de Seletor</th>
-                            <th>Usou o seletor nesta página?</th>
-                            <th>Funcionamento do seletor:</th>
-                        </tr>
-                        <tr>
-                            <td>Universal</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Aplica o estilo a todos os elementos da página</td>
-                        </tr>
-                        <tr>
-                            <td>Tipo</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Usa o nome do marcador a estilizar</td>
-                        </tr>
-                        <tr>
-                            <td>Classe</td>
-                            <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
-                            <td>Associa um nome a um estilo</td>
-                        </tr>
-                        <tr>
-                            <td>Id</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Permite identificar univocamente um elemento do HTML</td>
-                        </tr>
-                        <tr>
-                            <td>Atributo</td>
-                            <td><i class="material-icons" style="color:red;font-size: 20px">report_problem</i></td>
-                            <td>Aplicam-se a atributos de elementos</td>
-                        </tr>
-                        <tr>
-                            <td>Pseudo-Classe</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>São associados ao estado de um elemento</td>
-                        </tr>
-                        <tr>
-                            <td>Pseudo-Elemento</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Aplicam-se a partes de elementos</td>
-                        </tr>
-                    </table>
-                    <p>    
-                    </p>
-                
-                    <!--Tabela 2-->
-                    <table>
-                        <tr class="cor" class="texto" id="unico">
-                            <th>Combinadores de Seletores</th>
-                            <th>Usou o combinador nesta página?</th>
-                            <th>Funcionamento do combinador:</th>
-                        </tr>
-                        <tr>
-                            <td>Seletores descendentes</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Todos os <i>p</i> são "dentro" de um <i>div</i></td>
-                        </tr>
-                        <tr>
-                            <td>Seletores filhos</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Todos os <i>p</i> que estão "logo dentro" de <i>div</i></td>
-                        </tr>
-                        <tr>
-                            <td>Seletores adjacentes</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Todos os <i>p</i> que estão colocados depois de um <i>div</i></td>
-                        </tr>
-                        <tr>
-                            <td>Seletores imediatamente adjacentes</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>Todos os <i>p</i> que estão colocados "imediatamente" depois de um <i>div</i></td>
-                        </tr>
-                        <tr>
-                            <td>Agrupa seletores</td>
-                            <td><i class="material-icons" style="color:rgba(0, 0, 255, 0.651);font-size: 20px;">done</i></td>
-                            <td>São separados por vírgulas</td>
-                        </tr>
-                    </table>
-        
-                </section>
-                <p></p>
-                <hr>
-        
-                 <section>
-                    <section>
-                        <center>
+    </p>
+    <hr>
+  </center>
+    <section>
+        <center>
                             <svg width="600" height="289">
                                 <g transform="translate(100,100)"> 
                                     <a href="index.html">
@@ -302,13 +331,24 @@
                                 </g> 
                               </svg>
                         </center>
-                    </section>
-        
-                 <footer>
-                    <n>Nome: Inês Rocha| <a href="https://www.ulusofona.pt/">Universidade Lusofona|</a> a22006692| 2º ano</n>
-                 </footer>
+          </section>
+          
+    </main>
+  </div>
+  <center>
+    <div class="col-3 right">
+      <div class="aside">
+        <img src="images/100.jpg" class="relativoEstilo">
 
-        </main>
-
-    </body>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer">
+    <footer>
+        <n>Nome: Inês Rocha| <a href="https://www.ulusofona.pt/">Universidade Lusofona|</a> a22006692| 2º ano</n>
+    </footer> 
+   </center>
+</body>
 </html>

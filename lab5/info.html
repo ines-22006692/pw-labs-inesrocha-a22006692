@@ -1,173 +1,210 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width,initial-scale=1.0">
-        <title>Informação</title>
-        <link rel="stylesheet" href="estilos.css">
-        <meta name="author" content="Inês Rocha - a22006692">
-        <meta name="keywords" content="HTML,Web,Japão">
-        <meta name="description" content="Descricao de uma cidade">
-        <link rel="shortcut icon" type="image/x-icon" href="images/preview.ico">
-        <body style="background-color:#b8ece3;"></body>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
-        
-    </head>
-    <body>
-        <header>
-            <h1><center>&#127568; Tóquio &#127568</center></h1>
-            <figure>
-                <center>
-                    <img src="images/japao.jpg">
-                    <details>
-                        <summary>Detalhes </summary>
-                        <p style="color: rgb(182, 25, 25);"><i><b>Imagem da Torre de Tóquio</b></i></p>
-                    </details>
-                </center>
-            </figure>
-        </header>
+<head>
+  
+  <!--definir exibicao da janela-->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   
+  <link rel="stylesheet" href="estilos.css">
+
+  <meta charset="UTF-8">
+    <title>Informação</title>
+    <meta name="author" content= "Inês Rocha - a22006692">
+    <meta name="keywords" content="HTML,Web,Japão">
+    <meta name="desciption" content="Descricao de uma cidade">
+    <link rel="shortcut icon" type="image/x-icon" href="images/preview.ico">
+    <body style="background-color:rgb(196, 201, 201)"><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=WrFD2m66LNKpb8Pu01Z9861CtbXzCMt77OwnSTu8LBLJ7VnRRGzXFzikxQUtZq45e5Me0gLrgMGefgFtJacJYOHVOspRbM98grxA4TtnHxFcrMfxalz1mwv16UaBf7tA" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9wdy1sYWJzLWpvYW9zYW50b3MtMjE5MDUxMzEuaGVyb2t1YXBwLmNvbS9sYWI1L2luZGV4Lmh0bWw"/></body>
+    <link href="https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style> 
+      div {
+        width: 100%;
+        height: 100%;
+      
+
        
-        <br>
-        <!--Menu de Navegação-->
-        <nav>
-            <center>
-                <a href="quizz.html"><i class="material-icons">poll</i>Quizz |</a>
-                <a href="comentarios.html"><i class="material-icons">feedback</i> Comentários |</a>
-                <a href="html5-css.html"><i class="material-icons">computer</i>HTML |</a>
-                <a href="../index.html"><i class="material-icons">home</i>Home |</a>
-                <a href="index.html"><i class="material-icons">menu_book</i>Introdução |</a>
-                <a href="local.html"><i class="material-icons">room</i>Localização |</a>
-                <a href="multimedia.html"><i class="material-icons">video_camera_front</i>Multimédia |</a>
-                <a href="info.html"><i class="material-icons">description</i>Informação </a>
-            </center>
-        </nav>
-            <hr>
+        position: relative;
+        animation: mymove 5s ;
+        animation-fill-mode: forwards;
+      }
+      
+      #div1 {animation-timing-function: linear;
+        }
+      
+      @keyframes mymove {
+        from {left: -1000px;}
+        to {left: 0px;}
+      }
+      </style>
+</head>
+<body>
+<center>
+  <div class="header">
+    <h1>&#127568; Tóquio &#127568;</h1>
+    <img src="images/japao.jpg" alt="Tóquio">
+      <details>
+        <summary>Detalhes</summary>
+        <p style="color: rgb(182, 25, 25);"><i><b>Imagem do Monte Fuji</b></i></p>
+      </details>
+  </div>
+ 
+  <div class="row">
+    <div class="col-3 menu">
+      
+<ul>
+  <p>
+    <a href="quizz.html"><i class="material-icons" style="font-size:24px;color:rgb(228, 82, 24)">poll</i>Quizz </a>
+    <a href="comentarios.html"><i class="material-icons" style="font-size:24px;color:rgb(42, 174, 207)">feedback</i> Comentários </a>
+    <a href="html5-css.html"><i class="material-icons" style="font-size:24px;color:red">computer</i>HTML </a>
+    <a href="../index.html"><i class="material-icons" style="font-size:24px;color:rgb(176, 59, 192)">home</i> Home </a>
+    <a href="index.html"><i class="material-icons" style="font-size:24px;color:rgb(212, 198, 2)">menu_book</i>Introdução </a>
+    <a href="local.html"><i class="material-icons" style="font-size:24px;color:rgb(53, 124, 51)">room</i>Localização </a>  
+    <a href="multimedia.html"><i class="material-icons" style="font-size:24px;color:rgb(3, 14, 170)">video_camera_front</i>Multimédia </a>
+    <a href="info.html"><i class="material-icons" style="font-size:24px;color:rgb(90, 44, 44)">description</i>Informação </a>   
+    
+    </ul>
+    </div>
+  
+    <div class="col-6">
+      <main>
+        <section>
+        <h3>Informação</h3> 
+    
+        <table border="1" cellspacing="2" cellpadding="6%" bgcolor="#FFFF99" align="center">
+            <caption>Informação sobre Tóquio <b><a href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">[4]</a></b></caption>
+            <!-- Colgroup-->
+            <colgroup>
+                <col align="center" width="25%" span="3">
+                <col valign="center" span="1">
+            </colgroup>
+            <!-- demografia -->
+            <tr>
+                <td rowspan="2"> <b>Demografia</b></td>
+                <td>População</td>
+                <td>9,273 milhões hab</td>
+            </tr>
+            <tr>
+                <td>densidade populacional</td>
+                <td>4 000 hab/km<sup>2</sup></td>
+            </tr>
 
-        <main>
-            <div><h3>Informação</h3></div>
-            <section>
-                <table border="1" cellspacing="2" cellpadding="6%" bgcolor="#FFFF99" align="center">
-                    <caption>Informação sobre Tóquio <b><a href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">[4]</a></b></caption>
-                    <!-- Colgroup-->
-                    <colgroup>
-                        <col align="center" width="25%" span="3">
-                        <col valign="center" span="1">
-                    </colgroup>
-                    <!-- demografia -->
-                    <tr>
-                        <td rowspan="2"> <b>Demografia</b></td>
-                        <td>População</td>
-                        <td>9,273 milhões hab</td>
-                    </tr>
-                    <tr>
-                        <td>densidade populacional</td>
-                        <td>4 000 hab/km<sup>2</sup></td>
-                    </tr>
-        
-                    <!-- geografia -->
-                    <tr>
-                        <td rowspan="3"><b>Geografia</b></td>
-                        <td>Area</td>
-                        <td>2 189,08 km<sup>2</sup> </td>
-                    </tr>
-        
-                    <tr>
-                        <td>Região</td>
-                        <td>Honshu</td>
-                    </tr>
-        
-                    <tr>
-                        <td>País</td>
-                        <td>Japão</td>
-                    </tr>
-                    
-                    <tr>
-                        <td><b>Website</b></td>
-                        <td colspan="2" align="center"> <a href="http://www.metro.tokyo.jp/" target="_blank"> visite o site oficial!</a></td>
-                    </tr>
-        
-                    <!-- Historia-->
-                    <tr>
-                        <td rowspan="2"> <b>Historia</b></td>
-                        <td>Bandeira</td>
-                        <td><img src="images/bandeiraJapao.png" alt="bandeira"></td>
-                    </tr>
-                    <tr>
-                        <td>Fuso horário</td>
-                        <td><i>Japão padrão (UTC+9)</i></td>
-                    </tr>
+            <!-- geografia -->
+            <tr>
+                <td rowspan="3"><b>Geografia</b></td>
+                <td>Area</td>
+                <td>2 189,08 km<sup>2</sup> </td>
+            </tr>
 
-                  </table>
+            <tr>
+                <td>Região</td>
+                <td>Honshu</td>
+            </tr>
 
-                  <br><hr>
-
-            </section>
-
-            <section>
-                <center>
-                    <svg width="600" height="289">
-                        <g transform="translate(100,100)"> 
-                            <a href="index.html">
-                                <text id="TextElement" x="20" y="0" style="font-family:Impact;font-size:50; visibility:hidden"> Introdução
-                                    <set attributeName="visibility" attributeType="CSS" to="visible"  fill="freeze" />
-                                    <animateMotion path="M 4 0 L 100 89" begin="1s" dur="5s" fill="freeze" />
-                                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0"  fill="freeze" /> 
-                                    <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum"  fill="freeze" /> 
-                                  </text> 
-                            </a>
-                          
-                            <a href="local.html">
-                           <text id="TextElement" x="0" y="0" style="font-family:Impact;font-size:14; visibility:hidden"> Localização
-                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-                            <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
-                          </text> 
-                          </a>
-                          
-                          <a href="multimedia.html">
-                            <text font-style="normal" font-weight="normal" transform="rotate(-60 259.890625,78.5) " xml:space="preserve" text-anchor="start" font-family="'UnifrakturMaguntia'" font-size="24" id="svg_6" y="85" x="233" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Multimédia
-                            </text>
-                         
-                        </a>
-                            
-                        <a href="info.html">
-                             <text id="TextElement3" x="80" y="20" style="font-family:Verdana;font-size:14; visibility:hidden"> Informação
-                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-                            <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="3s" dur="5s" fill="freeze" /> 
-                            </text> 
-                        </a>
-                            
-                        <a href="comentarios.html">
-                               <text id="TextElement3" x="110" y="-5" style="font-family:Courier New-B;font-size:14; visibility:hidden"> Comentários
-                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-                            <animateMotion path="M 10 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="2s" fill="freeze" /> 
-                            <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum"  fill="freeze" /> 
-                
-                        </text> 
-                        </a>
-                
-                        <a href="quizz.html">
-                            <text id="TextElement" x="30" y="80" style="font-family:Impact;font-size:24; visibility:hidden"> Quizz
-                                <set attributeName="visibility" attributeType="CSS" to="visible"  fill="freeze" />
-                                <animateMotion path="M 10 0 L 5 89" begin="1s" dur="5s" fill="freeze" />
-                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0"  fill="freeze" /> 
-                               
-                        </a>
+            <tr>
+                <td>País</td>
+                <td>Japão</td>
+            </tr>
             
-                        </g> 
-                      </svg>
-                </center>
-            </section>
+            <tr>
+                <td><b>Website</b></td>
+                <td colspan="2" align="center"> <a href="http://www.metro.tokyo.jp/" target="_blank"> visite o site oficial!</a></td>
+            </tr>
 
-            <footer>
-                <n>Nome: Inês Rocha| <a href="https://www.ulusofona.pt/">Universidade Lusofona|</a> a22006692| 2º ano</n>
-            </footer>
+            <!-- Historia-->
+            <tr>
+                <td rowspan="2"> <b>Historia</b></td>
+                <td>Bandeira</td>
+                <td><img src="images/bandeiraJapao.png" alt="bandeira"></td>
+            </tr>
+            <tr>
+                <td>Fuso horário</td>
+                <td><i>Japão padrão (UTC+9)</i></td>
+            </tr>
 
-        </main>
+          </table>
+
+          <br><hr>
+
+          </section>
         
-    </body>
+      </center>
+        <section>
+          <!--Menu interativo-->
+      <center>
+        <svg width="700" height="300">
+            <g transform="translate(100,100)"> 
+                <a href="index.html">
+                    <text id="TextElement" x="20" y="0" style="font-family:Impact;font-size:50; visibility:hidden"> Introdução
+                        <set attributeName="visibility" attributeType="CSS" to="visible"  fill="freeze" />
+                        <animateMotion path="M 4 0 L 100 89" begin="1s" dur="5s" fill="freeze" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0"  fill="freeze" /> 
+                        <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum"  fill="freeze" /> 
+                      </text> 
+                </a>
+              
+                <a href="local.html">
+               <text id="TextElement" x="0" y="0" style="font-family:Impact;font-size:14; visibility:hidden"> Localização
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+              </text> 
+              </a>
+              
+              <a href="multimedia.html">
+                <text font-style="normal" font-weight="normal" transform="rotate(-60 259.890625,78.5) " xml:space="preserve" text-anchor="start" font-family="'UnifrakturMaguntia'" font-size="24" id="svg_6" y="85" x="233" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Multimédia
+                </text>
+             
+            </a>
+                
+            <a href="info.html">
+                 <text id="TextElement3" x="80" y="20" style="font-family:Verdana;font-size:14; visibility:hidden"> Informação
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="3s" dur="5s" fill="freeze" /> 
+                </text> 
+            </a>
+                
+            <a href="comentarios.html">
+                   <text id="TextElement3" x="110" y="-5" style="font-family:Courier New-B;font-size:14; visibility:hidden"> Comentários
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 10 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="2s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum"  fill="freeze" /> 
+    
+            </text> 
+            </a>
+    
+            <a href="quizz.html">
+                <text id="TextElement" x="30" y="80" style="font-family:Courier New-B;font-size:24; visibility:hidden"> Quizz
+                    <set attributeName="visibility" attributeType="CSS" to="visible"  fill="freeze" />
+                    <animateMotion path="M 10 0 L 5 89" begin="1s" dur="5s" fill="freeze" />
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0"  fill="freeze" /> 
+                   
+            </a>
+    
+            </g>
+          </center> 
+          </svg>
+          </section>
+        </main>
+  </div>
+  <center>
+    <div class="col-3 right">
+      <div class="aside">
+        <img src="images/19.jpg" class="relativoInfo">
+        <img src="images/25.jpg" class="absolutoInfo">
+        <img src="images/14.jpg" class="relativo3FotoInfo">
+
+             
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer">
+    <footer>
+        <n>Nome: Inês Rocha| <a href="https://www.ulusofona.pt/">Universidade Lusofona|</a> a22006692| 2º ano</n>
+    </footer> 
+   </center>
+</body>
 </html>

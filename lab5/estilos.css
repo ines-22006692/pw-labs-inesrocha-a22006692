@@ -1,58 +1,266 @@
 
-*{
-    font-family: sans-serif;
-}
-
-body{ 
-    margin: auto;
-    }
-    .cor {color:rgb(39, 39, 61)}
-    .texto{font-weight: bold;}
-    #unico {font-family: sans-serif;}
-    #menuo1,#menuo2,#menuo3,#menuo4,#menuo5,#menuo6,#menuo7{
-        font-family:initial;
-    }
-   
-    a:link{color:blue}
-    a:visited{color:rgb(209, 21, 21)}
-    a:hover{color:rgb(183, 49, 224)}
-    a:active{color:darkblue}
-
-h3{
-    color:rgb(101, 58, 150);
-    text-align: center;
+ h1 {
+  font-size: 28px;
 }
 h4{
-  color:rgb(228, 152, 39);
+  background-color: aliceblue;
+}
+
+
+
+
+
+*{
+box-sizing:border-box;
+padding:0px;
+margin: 7px;;
+}
+
+html{
+background-image: url(images/4.jpg);
+height: 100%
+}
+
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+
+body{
+text-align: center;
+width: 950px;
+min-height: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 0 40px;
+position: relative;
+background:rgb(119, 117, 117);;
+box-shadow: black 0 2px 5px 0;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 18.66%;}
+.col-3 {width: 15%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 75%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+
+
+
+
+body header {
+  background-color: aliceblue(150, 84, 84);
+  margin: auto;
+  width: 800px;
   text-align: center;
 }
 
-div h3{
-    background-color: rgba(224, 136, 148, 0.925);
+
+body nav {
+  margin: auto;
+  width: 800px;
+  font-size: 14px;
 }
-div > h4{
-  background-color: rgba(224, 136, 148, 0.925);
+header ~ main {
+  margin: auto;
+  background-color: rgb(156, 158, 160);
+  margin: auto;
+  width: 800px;
 }
 
-p,h4,a{color:rgba(34, 32, 32, 0.664)}
-
-h1{
-    color: rgb(219, 32, 32);
-    font-size: 20px;
-
-    
+main + footer {
+  font-size: 16px;
+ background-color:  rgb(156, 158, 160);
+  margin: auto;
+  width: 800px;
 }
+img.relativoMulti {
+  position: relative;
+  top: -30px;
+  right: 0px;
+  width: 400px;
+  height: 200px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.absolutoMulti{
+  position: absolute; 
+  top: 2370px;
+  right: 45px;
+  width: 200px;
+  height: 100px;
+  border: 4px solid #000000;
+}
+img.relativoEstilo {
+  position: relative;
+  top: -300px;
+  right: -700px;
+  width: 300px;
+  height: 200px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativoMenu {
+  position: relative;
+  top: -600px;
+  right: 150px;
+  width: 213px;
+  height: 300px;
+  border: 4px solid rgb(0, 0, 0);
+}
+
+img.relativoMultimedia {
+  position: relative;
+  top: -400px;
+  right: -750px;
+  width: 300px;
+  height: 182px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativoQuizz {
+  position: relative;
+  top: -1800px;
+  right: 200px;
+  width: 186px;
+  height: 300px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativoLocal {
+  position: relative;
+  top: -0px;
+  right: -200px;
+  width: 400px;
+  height: 164px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativoInfo {
+  position: relative;
+  top: -1280px;
+  right: 180px;
+  width: 236px;
+  height: 330px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.absolutoMenuTst{
+  position: absolute; 
+  top: -1500px;
+  right: -950px;
+  width: 200px;
+  height: 248px;
+  border: 4px solid #000000;
+}
+img.absolutoMultimedia{
+  position: absolute; 
+  top: -2700px;
+  right: -900px;
+  width: 203px;
+  height: 300px;
+  border: 4px solid #000000;
+}
+img.absolutoInfo{
+  position: absolute; 
+  top:-1050px;
+  right: -890px;
+  width: 200px;
+  height: 249px;
+  border: 4px solid #000000;
+}
+
+img.absolutoQuizz{
+  position: absolute; 
+  top:-1800px;
+  right: -920px;
+  width: 212px;
+  height: 300px;
+  border: 4px solid  rgb(0, 0, 0);
+}
+img.absolutoCom{
+  position: absolute; 
+  top:-1400px;
+  right: -900px;
+  width: 225px;
+  height: 300px;
+  border: 4px solid #000000;
+}
+
+img.absolutoMenu{
+  position: absolute; 
+  top: 100px;
+  right: -180px;
+  width: 300px;
+  height: 200px;
+  border: 4px solid #000000;
+}
+img.absolutoLocal{
+  position: absolute; 
+  top: -2100px;
+  right: -920px;
+  width: 200px;
+  height: 266px;
+  border: 4px solid #030303;
+}
+
+img.relativo3FotoMulti {
+  position: relative;
+  top: -2150px;
+  right: 214px;
+  width: 214px;
+  height: 300px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativo3FotoQuizz {
+  position: relative;
+  top: -140px;
+  right: -280px;
+  width: 600px;
+  height: 345px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativo3FotoLocal {
+  position: relative;
+  top: -2520px;
+  right: 180px;
+  width: 200px;
+  height: 264px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativo3FotoInfo {
+  position: relative;
+  top: -700px;
+  right: -700px;
+  width: 300px;
+  height: 300px;
+  border: 4px solid rgb(0, 0, 0);
+}
+img.relativo3FotoIntro {
+  position: relative;
+  top: -380px;
+  right: -730px;
+  width: 275px;
+  height: 183px;
+  border: 4px solid rgb(0, 0, 0);
+}
+
 img.relativo {
   position: relative;
   width: 400px;
   height: 200px;
-  border: 4px solid #c4293e;
+  border: 3px solid #c4293e;
 }
 
+img.absoluto1 {
+  position: absolute; 
+  top: 1840px;
+  right: 140px;
+  width: 200px;
+  height: 100px;
+  border: 4px solid #000000;
+}
 img.absoluto {
   position: absolute;
-  top: 2400px;
-  right: 430px;
+  top: 1640px;
+  right: 50px;
   width: 200px;
   height: 100px;
   border: 3px solid #0906aa;
@@ -71,37 +279,38 @@ figure.outro {
   right: 0;
   width: 300px;
 }
+a:link{color:blue}
+a:visited{color:rgb(209, 21, 21)}
+a:hover{color:rgb(183, 49, 224)}
+a:active{color:darkblue}
 
+div h3{
+  background-color: rgba(224, 136, 148, 0.925);
+}
+div > h4{
+background-color: rgba(224, 136, 148, 0.925);
+}
+h3{
+  color:rgb(101, 58, 150);
+  text-align: center;
+  font-size: 20px
+}
 iframe {
   color: #000;
   border: 5px solid rgb(252, 49, 49);
 }
-
 [src="images/japao.jpg"] {
   border: 5px solid rgb(173, 22, 22);
 }
-
-main + footer {
-  font-size: 17px;
-  background-color: #b8ece3;
-  margin: auto;
-  width: 800px;
-}
-header ~ main {
-  margin: auto;
-  background-color: #b8ece3;
-  margin: auto;
-  width: 800px;
-}
-body nav {
-  margin: auto;
-  background-color: #b8ece3;
-  margin: auto;
-  width: 850px;
-}
-body header {
-  background-color: #b8ece3;
-  margin: auto;
-  width: 800px;
+h5{
+  color:rgb(101, 58, 150);
   text-align: center;
+  font-size: 20px
 }
+h6{
+  color:rgb(194, 141, 72);
+  text-align: center;
+  font-size: 30px
+}
+
+
