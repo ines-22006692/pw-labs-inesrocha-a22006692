@@ -70,22 +70,8 @@ main + footer {
   margin: auto;
   width: 800px;
 }
-img.relativoMulti {
-  position: relative;
-  top: -30px;
-  right: 0px;
-  width: 400px;
-  height: 200px;
-  border: 4px solid rgb(0, 0, 0);
-}
-img.absolutoMulti{
-  position: absolute; 
-  top: 2370px;
-  right: 45px;
-  width: 200px;
-  height: 100px;
-  border: 4px solid #000000;
-}
+
+
 img.relativoEstilo {
   position: relative;
   top: -300px;
@@ -177,14 +163,6 @@ img.absolutoCom{
   border: 4px solid #000000;
 }
 
-img.absolutoMenu{
-  position: absolute; 
-  top: 100px;
-  right: -180px;
-  width: 300px;
-  height: 200px;
-  border: 4px solid #000000;
-}
 img.absolutoLocal{
   position: absolute; 
   top: -2100px;
@@ -242,14 +220,6 @@ img.relativo {
   border: 3px solid #c4293e;
 }
 
-img.absoluto1 {
-  position: absolute; 
-  top: 1840px;
-  right: 140px;
-  width: 200px;
-  height: 100px;
-  border: 4px solid #000000;
-}
 img.absoluto {
   position: absolute;
   top: 1640px;
